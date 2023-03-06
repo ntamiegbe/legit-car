@@ -2,6 +2,7 @@ import Hero from './Sections/Hero';
 import Navbar from './Sections/Navbar';
 import Advantages from './Sections/Advantages';
 import './index.css';
+import Services from './Sections/Services';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Advantages />
+      <Services />
     </div>
   );
 }
