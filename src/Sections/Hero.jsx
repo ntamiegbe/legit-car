@@ -34,10 +34,10 @@ const Hero = () => {
                 <div className="bg-[#F2F4F7] w-[40px] h-[40px] relative rounded-[8px]" />
                 <div className="absolute top-[450px] left-9 flex items-center space-x-1">
                     <p className='text-base font-medium'>Report missing vehicle</p>
-                    <BiChevronRight className='text-[#8E44AD]'/>
+                    <BiChevronRight className='text-[#8E44AD]' />
                 </div>
             </div>
-            <div className="bg-[#FCF4FF] w-[329px] h-[530px] absolute left-[872px]" />
+            <div className="bg-[#FCF4FF] w-[329px] h-[490px] absolute left-[872px]" />
             <img src={Car} alt="Car" className='absolute right-[100px] w-[550px] h-[379px] top-[120px]' />
         </div>
     )

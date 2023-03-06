@@ -1,5 +1,6 @@
 import Hero from './Sections/Hero';
 import Navbar from './Sections/Navbar';
+import Advantages from './Sections/Advantages';
 import './index.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className='bg-white'>
       <Navbar />
       <Hero />
+      <Advantages />
     </div>
   );
 }
