@@ -5,6 +5,7 @@ import './index.css';
 import Services from './Sections/Services';
 import Featured from './Sections/Featured';
 import CTA from './Sections/CTA';
+import Footer from './Sections/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Featured />  
       <CTA />
+      <Footer />
     </div>
   );
 }
