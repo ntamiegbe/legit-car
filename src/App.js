@@ -4,6 +4,7 @@ import Advantages from './Sections/Advantages';
 import './index.css';
 import Services from './Sections/Services';
 import Featured from './Sections/Featured';
+import CTA from './Sections/CTA';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Advantages />
       <Services />
       <Featured />  
+      <CTA />
     </div>
   );
 }
