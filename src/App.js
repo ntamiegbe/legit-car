@@ -3,6 +3,7 @@ import Navbar from './Sections/Navbar';
 import Advantages from './Sections/Advantages';
 import './index.css';
 import Services from './Sections/Services';
+import Featured from './Sections/Featured';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Advantages />
       <Services />
+      <Featured />  
     </div>
   );
 }

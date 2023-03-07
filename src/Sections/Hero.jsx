@@ -8,7 +8,7 @@ import { BiChevronRight } from 'react-icons/bi'
 const Hero = () => {
     return (
         <div className='px-20 relative flex'>
-            <div className="absolute w-[420px] h-[112px] mt-5">
+            <div className="absolute max-w-[420px] mt-5">
                 <h1 className='text-5xl my-6'><span className='text-[#8E44AD]'>Verify</span> that car <br /> with LegitCar</h1>
                 <p className='text-[#475467] text-lg font-normal mb-10'>Whether you're looking to buy, sell, track or repair your vehicle, LegitCar could help save you more money and time.</p>
                 <div className="flex gap-[16px] mb-4">
@@ -31,10 +31,11 @@ const Hero = () => {
                         <p className='font-medium'>Tracking</p>
                     </div>
                 </div>
-                <div className="bg-[#F2F4F7] w-[40px] h-[40px] relative rounded-[8px]" />
-                <div className="absolute top-[450px] left-9 flex items-center space-x-1">
-                    <p className='text-base font-medium'>Report missing vehicle</p>
-                    <BiChevronRight className='text-[#8E44AD]' />
+                <div className="bg-[#F2F4F7] px-4 py-4 relative rounded-[8px]">
+                    <div className="absolute top-[4px] left-9 flex z-20 items-center space-x-1">
+                        <p className='text-sm font-medium'>Report missing vehicle</p>
+                        <BiChevronRight className='text-[#8E44AD]' />
+                    </div>
                 </div>
             </div>
             <div className="bg-[#FCF4FF] w-[329px] h-[490px] absolute left-[872px]" />
