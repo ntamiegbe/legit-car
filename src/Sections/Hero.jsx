@@ -39,7 +39,7 @@ const Hero = () => {
                 </div> */}
                 <div className="relative">
                     <div className="bg-[#F2F4F7] w-[40px] h-[40px] rounded-[8px]" />
-                    <div className="absolute bottom-[13px] left-9 flex z-20 items-center justify-center space-x-1">
+                    <div className="absolute bottom-[13px] left-[23px] flex z-20 items-center justify-center space-x-1">
                         <p className='text-sm font-medium w-full'>Report missing vehicle</p>
                         <BiChevronRight className='text-[#8E44AD]' />
                     </div>

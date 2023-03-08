@@ -2,7 +2,7 @@ import { AiOutlineQuestionCircle } from 'react-icons/ai'
 
 const CTA = () => {
     return (
-        <div className='absolute top-[2730px] px-20 w-full'>
+        <div className='absolute top-[2830px] px-20 w-full'>
             <div className="bg-[#FCF4FF] h-[470px] rounded-[16px] flex items-center justify-center">
                 <div className="flex flex-col items-center justify-center">
                     <div className="text-center w-[608px]">

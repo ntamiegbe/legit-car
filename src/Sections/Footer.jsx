@@ -5,7 +5,7 @@ import { BiCopyright } from 'react-icons/bi'
 
 const Footer = () => {
   return (
-    <div className='absolute top-[3280px] py-16 px-28 w-full'>
+    <div className='absolute top-[3350px] py-16 px-28 w-full'>
       <div className="flex justify-between items-center">
         <div className="flex flex-col items-start">
           <div className="flex items-center justify-start flex-row my-5">
@@ -41,30 +41,30 @@ const Footer = () => {
         <div className="flex items-start justify-center flex-col space-y-5">
           <h1 className='text-[#1D2939] font-medium text-base mb-3'>Connect</h1>
           <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm mt-20">
-            <BsFacebook className='w-[17px] h-[17px]'/>
+            <BsFacebook className='w-[17px] h-[17px]' />
             <h1>legitcar</h1>
           </div>
           <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm">
-            <BsTwitter className='w-[17px] h-[17px]'/>
+            <BsTwitter className='w-[17px] h-[17px]' />
             <h1>@legit_car</h1>
           </div>
           <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm">
-            <AiOutlineInstagram className='w-[17px] h-[17px]'/>
+            <AiOutlineInstagram className='w-[17px] h-[17px]' />
             <h1>@legit_carofficial</h1>
           </div>
           <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm">
-            <BsTelephone className='w-[17px] h-[17px]'/>
+            <BsTelephone className='w-[17px] h-[17px]' />
             <h1>07040489327</h1>
           </div>
           <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm">
-            <BsEnvelope className='w-[17px] h-[17px]'/>
+            <BsEnvelope className='w-[17px] h-[17px]' />
             <h1>info@legitcar.com</h1>
           </div>
         </div>
       </div>
-      <div className="mt-24 flex items-center space-x-2 text-[#475467]">
+      <div className="mt-24 flex items-center space-x-2 text-[#475467] justify-start">
         <BiCopyright />
-        <p className='font-medium'>2016 - 2022   LegitCar</p>
+        <p className='font-medium'><span className='mr-2'> 2016 - 2023</span> LegitCar</p>
       </div>
     </div>
   )
