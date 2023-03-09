@@ -3,8 +3,8 @@ import {BiChevronDown} from 'react-icons/bi'
 
 const Navbar = () => {
     return (
-        <nav className='w-full h-[80px] py-4 border-b px-20'>
-            <div className="flex justify-between items-center ">
+        <nav className='py-4 border-b px-20'>
+            <div className="flex justify-between items-center">
                 <div className="flex flex-row justify-center items-center space-x-10">
                     <div className="flex items-center justify-center flex-row">
                         <img src={L} alt="" />
@@ -31,7 +31,7 @@ const Navbar = () => {
                         <p>Contact Us</p>
                     </div>
                 </div>
-                <div className="flex justify-between items-center space-x-12">
+                <div className="flex justify-between items-center space-x-10">
                     <div className="flex items-center text-[#475467] text-[16px] font-medium">
                         <p>Login</p>
                     </div>
