@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="flex justify-center items-center">
       <div className='py-16 px-28 w-full'>
         <div className="flex justify-between items-center">
-          <div className="flex flex-col justify-start items-start">
+          <div className="mb-14">
             <div className="flex items-center justify-start flex-row my-5">
               <img src={L} alt="" />
               <p className='font-bold text-2xl text-[#8E44AD]'>e</p>
@@ -39,26 +39,26 @@ const Footer = () => {
             <h2 className='text-[#475467] font-normal'>Tracking</h2>
             <h2 className='text-[#475467] font-normal'>Report misssing vehicle</h2>
           </div>
-          <div className="flex items-start justify-center flex-col space-y-5">
+          <div className="flex items-start justify-center flex-col space-y-4">
             <h1 className='text-[#1D2939] font-medium text-base mb-3'>Connect</h1>
-            <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm mt-20">
-              <BsFacebook className='w-[17px] h-[17px]' />
+            <span className="flex items-center space-x-2 text-[#475467] font-normal">
+              <BsFacebook className='w-[15px] h-[15px]' />
               <h1>legitcar</h1>
-            </div>
-            <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm">
-              <BsTwitter className='w-[17px] h-[17px]' />
+            </span>
+            <div className="flex items-center space-x-2 text-[#475467] font-normal">
+              <BsTwitter className='w-[15px] h-[15px]' />
               <h1>@legit_car</h1>
             </div>
-            <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm">
-              <AiOutlineInstagram className='w-[17px] h-[17px]' />
+            <div className="flex items-center space-x-2 text-[#475467] font-normal">
+              <AiOutlineInstagram className='w-[15px] h-[15px]' />
               <h1>@legit_carofficial</h1>
             </div>
-            <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm">
-              <BsTelephone className='w-[17px] h-[17px]' />
+            <div className="flex items-center space-x-2 text-[#475467] font-normal">
+              <BsTelephone className='w-[15px] h-[15px]' />
               <h1>07040489327</h1>
             </div>
-            <div className="flex items-center space-x-2 text-[#475467] font-normal text-sm">
-              <BsEnvelope className='w-[17px] h-[17px]' />
+            <div className="flex items-center space-x-2 text-[#475467] font-normal">
+              <BsEnvelope className='w-[15px] h-[15px]' />
               <h1>info@legitcar.com</h1>
             </div>
           </div>
