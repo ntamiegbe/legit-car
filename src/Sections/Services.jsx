@@ -7,7 +7,7 @@ const Services = () => {
                 <div className="flex items-center justify-center mb-10 mt-20">
                     <h1 className="text-5xl text-[#1D2939] text-center font-medium">Numerous services and features under one umbrella</h1>
                 </div>
-                <div className="py-[15rem] bg-[#1D2939] flex items-center justify-center rounded-[16px] mb-16">
+                <div className="py-[12rem] bg-[#1D2939] flex items-center justify-center rounded-[16px] mb-16">
                     <img src={YoutubeIcon} alt="Youtube" />
                 </div>
                 <div className="flex items-center justify-between space-x-3 px-4 mb-20">
