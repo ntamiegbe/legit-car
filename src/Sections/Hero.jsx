@@ -8,23 +8,23 @@ import { BiChevronRight } from 'react-icons/bi'
 const Hero = () => {
     return (
         <div className='px-20 flex justify-between space-x-10'>
-            <div className="max-w-[400px] mt-5">
-                <h1 className='text-5xl my-6'><span className='text-[#8E44AD]'>Verify</span> that car <br /> with LegitCar</h1>
+            <div className="max-w-[400px] mt-5 h-screen">
+                <h1 className='text-5xl my-3'><span className='text-[#8E44AD]'>Verify</span> that car <br /> with LegitCar</h1>
                 <p className='text-[#475467] text-lg font-normal mb-7'>Whether you're looking to buy, sell, track or repair your vehicle, LegitCar could help save you more money and time.</p>
                 <div className="grid grid-cols-2 gap-y-3 gap-x-7 mb-4">
-                    <div className="border border-[#D0D5DD] w-[202px] h-[118px] bg-white rounded-[8px] flex flex-col space-y-3 items-center justify-center">
+                    <div className="border border-[#D0D5DD] w-[202px] h-[110px] bg-white rounded-[8px] flex flex-col space-y-3 items-center justify-center">
                         <img src={Icon1} alt="" />
                         <p className='font-medium'>Verify</p>
                     </div>
-                    <div className="border border-[#D0D5DD] w-[202px] h-[118px] bg-white rounded-[8px] flex flex-col space-y-3 items-center justify-center">
+                    <div className="border border-[#D0D5DD] w-[202px] h-[110px] bg-white rounded-[8px] flex flex-col space-y-3 items-center justify-center">
                         <img src={Icon2} alt="" />
                         <p className='font-medium'>Maintenance</p>
                     </div>
-                    <div className="border border-[#D0D5DD] w-[202px] h-[118px] bg-white rounded-[8px] flex flex-col space-y-3 items-center justify-center">
+                    <div className="border border-[#D0D5DD] w-[202px] h-[110px] bg-white rounded-[8px] flex flex-col space-y-3 items-center justify-center">
                         <img src={Icon3} alt="" />
                         <p className='font-medium'>Verified listings</p>
                     </div>
-                    <div className="border border-[#D0D5DD] w-[202px] h-[118px] bg-white rounded-[8px] flex flex-col space-y-3 items-center justify-center">
+                    <div className="border border-[#D0D5DD] w-[202px] h-[110px] bg-white rounded-[8px] flex flex-col space-y-3 items-center justify-center">
                         <img src={Icon4} alt="" />
                         <p className='font-medium'>Tracking</p>
                     </div>
