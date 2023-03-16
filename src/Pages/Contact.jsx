@@ -70,7 +70,7 @@ const Contact = () => {
               <div className="flex border">
                 <div className="relative inline-block">
                   <select
-                    className="block appearance-none w-full px-6 py-3 text-[#1D2939]"
+                    className="block appearance-none bg-white w-full px-6 py-3 text-[#1D2939]"
                   >
                     <option value="+234">+234</option>
                     <option value="+1">+1</option>
