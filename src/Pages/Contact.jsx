@@ -70,7 +70,7 @@ const Contact = () => {
               <div className="flex border">
                 <div className="relative inline-block">
                   <select
-                    className="block appearance-none w-full px-4 py-3 pr-8"
+                    className="block appearance-none w-full px-6 py-3 text-[#1D2939]"
                   >
                     <option value="+234">+234</option>
                     <option value="+1">+1</option>
@@ -79,20 +79,14 @@ const Contact = () => {
                     <option value="+81">+81</option>
                     <option value="+86">+86</option>
                   </select>
-                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg
-                      className="fill-current h-4 w-4"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        d="M5 8l5 5 5-5H5z"
-                      />
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                     </svg>
                   </div>
                 </div>
                 <input
-                  className="flex-1 appearance-none w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="flex-1 appearance-none w-full ml-2 py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="phone"
                   type="tel"
                   placeholder="Phone number"
@@ -114,7 +108,7 @@ const Contact = () => {
             </div>
 
             <div className="mb-4">
-              <label className="flex items-start   text-[#1D2939] text-sm font-medium">
+              <label className="flex items-start text-[#1D2939] text-sm font-medium">
                 <input
                   className="mr-2"
                   type="checkbox"
