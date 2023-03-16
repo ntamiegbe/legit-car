@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="flex justify-center items-center">
       <div className='py-16 px-28 w-full'>
-        <div className="flex justify-between items-center">
+        <div className="md:flex justify-between items-center">
           <div className="mb-14">
             <div className="flex items-center justify-start flex-row my-5">
               <img src={L} alt="" />
@@ -23,15 +23,15 @@ const Footer = () => {
               <p className='text-[#475467] text-sm font-normal'>LegitCar bridges the market transparency gap between used car buyers and sellers.</p>
             </div>
           </div>
-          <div className="flex items-start justify-center flex-col space-y-4">
+          <d mb-10iv className="flex items-start justify-center flex-col space-y-4 mb-10">
             <h1 className='text-[#1D2939] font-medium text-basex mb-3'>Company</h1>
             <h2 className='text-[#475467] font-normal'>About us</h2>
             <h2 className='text-[#475467] font-normal'>Contact us</h2>
             <h2 className='text-[#475467] font-normal'>FAQs</h2>
             <h2 className='text-[#475467] font-normal'>Blog</h2>
             <h2 className='text-[#475467] font-normal'>Terms and Conditions</h2>
-          </div>
-          <div className="flex items-start justify-center flex-col space-y-4">
+          </d>
+          <div className="flex items-start justify-center flex-col space-y-4 mb-10">
             <h1 className='text-[#1D2939] font-medium text-base mb-3'>Services</h1>
             <h2 className='text-[#475467] font-normal'>Verify</h2>
             <h2 className='text-[#475467] font-normal'>Maintenance</h2>
@@ -39,7 +39,7 @@ const Footer = () => {
             <h2 className='text-[#475467] font-normal'>Tracking</h2>
             <h2 className='text-[#475467] font-normal'>Report misssing vehicle</h2>
           </div>
-          <div className="flex items-start justify-center flex-col space-y-4">
+          <div className="flex items-start justify-center flex-col space-y-4 mb-10">
             <h1 className='text-[#1D2939] font-medium text-base mb-3'>Connect</h1>
             <span className="flex items-center space-x-2 text-[#475467] font-normal">
               <BsFacebook className='w-[15px] h-[15px]' />
@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-24 flex items-center space-x-2 text-[#475467] justify-start">
+        <div className="mt-24 flex items-center space-x-2 text-[#475467]">
           <BiCopyright />
           <p className='font-medium'><span className='mr-2'> 2016 - 2023</span> LegitCar</p>
         </div>

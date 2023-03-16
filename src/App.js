@@ -9,7 +9,7 @@ import Footer from './Sections/Footer';
 
 function App() {
   return (
-    <div className='bg-white mx-auto'>
+    <div className='bg-white'>
       <Navbar />
       <Hero />
       <Advantages />
