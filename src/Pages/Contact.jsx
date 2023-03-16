@@ -7,9 +7,9 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className="bg-[#491A5D] pt-20 w-full">
-        <div className="text-white text-center">
+        <div className="text-white text-center flex flex-col items-center justify-center">
           <h2 className='text-3xl md:text-5xl mb-5'>Contact us</h2>
-          <p className='text-base w-[466px]'>We're available around the clock. Let us know how we can help!</p>
+          <p className='text-base'>We're available around the clock. Let us know how we can help!</p>
         </div>
         <div className="max-w-2xl mx-auto mt-14 px-8">
           <form className="bg-white px-10 md:px-20 py-10 mb-4 rounded-t-[16px]">
