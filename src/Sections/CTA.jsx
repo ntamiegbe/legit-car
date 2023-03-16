@@ -3,7 +3,7 @@ import { AiOutlineQuestionCircle } from 'react-icons/ai'
 const CTA = () => {
     return (
         <div className="flex justify-center items-center max-w-[95rem] mx-auto">
-            <div className='p-20 w-full'>
+            <div className='p-8 md:p-20 w-full'>
                 <div className="flex flex-col items-center justify-center bg-[#FCF4FF] py-24 rounded-[16px]">
                     <div className="text-center w-[272px] md:w-[608px]">
                         <h1 className="md:text-5xl text-3xl text-[#1D2939] text-center font-medium mb-8">Join thousands of people using LegitCar</h1>

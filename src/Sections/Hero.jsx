@@ -7,7 +7,7 @@ import { BiChevronRight } from 'react-icons/bi'
 
 const Hero = () => {
     return (
-        <div className='px-20 flex justify-between space-x-10 max-w-[95rem] mx-auto mb-10'>
+        <div className='px-8 md:px-20 flex justify-between space-x-10 max-w-[95rem] mx-auto mb-10'>
             <div className="max-w-[400px] mt-5">
                 <h1 className=' text-4xl md:text-5xl my-3'><span className='text-[#8E44AD]'>Verify</span> that car <br /> with LegitCar</h1>
                 <p className='text-[#475467] text-lg font-normal mb-7'>Whether you're looking to buy, sell, track or repair your vehicle, LegitCar could help save you more money and time.</p>

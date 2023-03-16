@@ -5,7 +5,7 @@ import Icon4 from '../Assets/SectionIcon4.png'
 
 const Advantages = () => {
     return (
-        <section className='px-20 py-28 bg-white my-20 max-w-[95rem] mx-auto'>
+        <section className='px-8 md:px-20 py-28 bg-white my-20 max-w-[95rem] mx-auto'>
             <div className="flex items-center justify-center mb-10">
                 <div className="text-center">
                     <h1 className="md:text-5xl text-3xl text-[#1D2939] text-center font-medium mb-8">Why choose LegitCar?</h1>

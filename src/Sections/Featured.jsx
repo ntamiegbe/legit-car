@@ -6,7 +6,7 @@ import Icon4 from '../Assets/Founders Africa.png'
 const Featured = () => {
     return (
         <div className="max-w-[95rem] mx-auto">
-            <div className='px-32 bg-white py-14 w-full'>
+            <div className='px-8 md:px-32 bg-white py-14 w-full'>
                 <div className="text-center flex items-center justify-center mb-10">
                     <h1 className="md:text-5xl text-3xl text-[#1D2939] text-center font-medium mb-8">As featured in</h1>
                 </div>

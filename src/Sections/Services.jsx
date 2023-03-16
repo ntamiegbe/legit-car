@@ -3,7 +3,7 @@ import YoutubeIcon from '../Assets/Youtube.png'
 const Services = () => {
     return (
         <div className="flex justify-center items-center bg-[#F9FAFB]">
-            <div className='px-20 py-10 my-24'>
+            <div className='px-8 md:px-20 py-10 my-24'>
                 <div className="flex items-center justify-center mb-10 mt-20">
                     <h1 className="md:text-5xl text-3xl text-[#1D2939] text-center font-medium">Numerous services and features under one umbrella</h1>
                 </div>

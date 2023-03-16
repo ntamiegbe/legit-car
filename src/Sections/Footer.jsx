@@ -6,7 +6,7 @@ import { BiCopyright } from 'react-icons/bi'
 const Footer = () => {
   return (
     <div className="flex justify-center items-center">
-      <div className='py-16 px-28 w-full'>
+      <div className='py-16 px-8 md:px-28 w-full'>
         <div className="md:flex justify-between items-center">
           <div className="mb-14">
             <div className="flex items-center justify-start flex-row my-5">
