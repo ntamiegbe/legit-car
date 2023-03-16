@@ -25,8 +25,8 @@ const Services = () => {
                         <p className='text-[#1D2939] font-normal text-center text-2xl'>Searches made</p>
                     </div>
                 </div>
-                <div class="flex items-center justify-center mb-10">
-                    <h1 class="text-white py-[15px] text-[13px] rounded-[8px] px-[24px] bg-[#8E44AD] font-medium">Get started</h1>
+                <div className="flex items-center justify-center mb-10">
+                    <h1 className="text-white py-[15px] text-[13px] rounded-[8px] px-[24px] bg-[#8E44AD] font-medium">Get started</h1>
                 </div>
             </div>
         </div>

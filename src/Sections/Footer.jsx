@@ -19,18 +19,18 @@ const Footer = () => {
               <p className='font-bold text-2xl text-[#8E44AD]'>a</p>
               <p className='font-bold text-2xl text-[#8E44AD]'>r</p>
             </div>
-            <div className="w-[227px]">
+            <div className="w-full lg:w-[227px]">
               <p className='text-[#475467] text-sm font-normal'>LegitCar bridges the market transparency gap between used car buyers and sellers.</p>
             </div>
           </div>
-          <d mb-10iv className="flex items-start justify-center flex-col space-y-4 mb-10">
+          <div className="flex items-start justify-center flex-col space-y-4 mb-10">
             <h1 className='text-[#1D2939] font-medium text-basex mb-3'>Company</h1>
             <h2 className='text-[#475467] font-normal'>About us</h2>
             <h2 className='text-[#475467] font-normal'>Contact us</h2>
             <h2 className='text-[#475467] font-normal'>FAQs</h2>
             <h2 className='text-[#475467] font-normal'>Blog</h2>
             <h2 className='text-[#475467] font-normal'>Terms and Conditions</h2>
-          </d>
+          </div>
           <div className="flex items-start justify-center flex-col space-y-4 mb-10">
             <h1 className='text-[#1D2939] font-medium text-base mb-3'>Services</h1>
             <h2 className='text-[#475467] font-normal'>Verify</h2>

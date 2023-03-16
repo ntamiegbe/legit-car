@@ -35,7 +35,7 @@ const Navbar = () => {
                     <div className="hidden md:flex items-center text-[#475467] text-[16px] font-medium">
                         <p>Login</p>
                     </div>
-                    <div className="hidden md:flex items-center text-white py-[15px] text-[13px] rounded-[8px] px-[24px] bg-[#8E44AD] font-medium">
+                    <div className="hidden md:flex items-center text-white py-[15px] text-[13px] rounded-[8px] px-[24px] bg-[#8E44AD] hover:bg-[#491A5D] font-medium">
                         <p>Sign up for free</p>
                     </div>
                     <div className="md:hidden flex items-center">
