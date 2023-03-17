@@ -20,7 +20,7 @@ const MaintainanceDetails = () => {
                 <div className="md:flex justify-center items-center md:space-x-8">
                     <div className="border w-full md:w-[320px] md:h-[308px] px-20 py-10 bg-white text-center mb-10 rounded-lg">
                         <div className="bg-[#F2F4F7] rounded-full mx-auto mb-8 p-5 h-28 w-28">
-                            <img src={Toyota} className='object-contain' />
+                            <img src={Toyota} className='object-contain' alt='car icon'/>
                         </div>
                         <h3 className='text-2xl font-bold text-[#1D2939] mb-8'>TOYOTA</h3>
                         <p className='text-[#667085] text-xs font-normal'>VIN / CHASIS NUMBER:</p>
