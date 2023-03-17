@@ -1,7 +1,7 @@
 import Navbar from '../Sections/Navbar'
 import Footer from '../Sections/Footer'
-import { AiOutlineQuestionCircle } from 'react-icons/ai'
 import { useNavigate } from 'react-router-dom'
+import { AiOutlineQuestionCircle } from 'react-icons/ai'
 
 const Maintainance = () => {
 
@@ -10,11 +10,11 @@ const Maintainance = () => {
   return (
     <section className='bg-white'>
       <Navbar />
-      <div className="px-8 flex flex-col items-center justify-center p-16">
+      <div className="px-8 flex flex-col items-center justify-center py-16 bg-[#F9FAFB]">
         <h2 className='text-center text-[#1D2939] text-4xl mb-8'>Let’s handle your maintenance</h2>
-        <p className='text-center text-[#475467]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra arcu platea suspendisse mi.</p>
+        <p className='text-center text-[#475467] mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra arcu platea suspendisse mi.</p>
 
-        <div className="mt-4 w-[370px]">
+        <div className="mt-4 w-[370px] pb-8">
           <h1 className='text-start mb-3 text-[#1D2939] font-medium'>VIN / Chasis number</h1>
           <div className="border border-[#D0D5DD] rounded-[8px] bg-white mb-5">
             <input type="text" className='px-5 py-3 rounded-[8px] focus:border-transparent focus:outline-none' placeholder='Enter 17 digits number' />
